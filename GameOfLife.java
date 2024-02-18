@@ -76,7 +76,7 @@ public class GameOfLife {
 			count++;
 			String x=in.readLine();
 			if(x.length()>0){
-				for(int i=1;i<x.length();i++){
+				for(int i=0;i<x.length();i++){
 					if (x.charAt(i)=='x'){
 						board[count][i+1]=1;
 					}
